@@ -1,0 +1,87 @@
+body {
+    background-color:blueviolet;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    min-width: 320px;
+    display: block;
+    margin: 8px;
+
+
+}
+
+head {
+    display: none;
+}
+
+h1 {
+    display: block;
+    font-size: 2m;
+    margin-block-start: 0.67m;
+    margin-block-end: 0.67m;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight:bold;
+
+}
+
+#form-outer {
+    background-color:yellowgreen;
+    margin:0 auto;
+    border-radius: 4px;
+    width: 75%;
+    max-width: 900px;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+div { 
+    display: block;
+}
+
+p {
+    display: block;
+    margin-block-start: 1m;
+    margin-block-end: 1m;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+form {
+    display: block;
+    margin-top: 0m;
+
+}
+
+label {
+    cursor: default;
+
+}
+
+.labels {
+    text-align: flex-end;
+
+}
+
+.RightTab {
+    display: inline-block;
+    text-align: flex-start;
+    width: 48%;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 873px;){
+.input-field {
+width: 80%;
+}
+}
+
+.input-field {
+    height: 20px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid blue;
+    border-radius: 2px;
+}
+
+

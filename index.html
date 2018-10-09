@@ -11,6 +11,7 @@
 <body>
 
 <h1 id="title">survey form</h1>
+
 <div id="form-outer">
 <p id="description">smörismörismörismörismörismörismörismöri</p>
 <form id="survey-form" method="GET" action="">
@@ -23,6 +24,8 @@
 </div>
 
 
+
+
 <div class="RowTab"></div>
 <div class="labels"></div>
 <label id="email-label" for="email">Email</label>
@@ -32,6 +35,8 @@
 </div>
 
 
+
+
 <div class="RowTab"></div>
 <div class="labels"></div>
 <label id="number-label" for="age">age</label>
@@ -39,6 +44,8 @@
 <div class="number">
 <input autofocus type="text" name="age" id="number" min="1" max="123" class="input-field" placeholder="age" required>
 </div>
+
+
 
 
 <div class="RowTab"></div>
@@ -55,11 +62,14 @@
     <option value="other">Other</option>
 </select>
 </div>
+
+
+
 <div class="RowTab">
     <div class="labels"></div>
     <label for="userRating" ></label>
 <div class="RightTab"></div>
-<div class="rightTab"</div>
+<div class="rightTab"></div>
 <ul style="list-style:none;"></ul>
 <li class="radio">
     <label>
@@ -67,17 +77,21 @@
     </label>
     <input name="radio-buttens" value="1" type="radio" class="userRatings">
 </li>
-<liclass="radio">
+<li class="radio">
     <label>
         "Maybe"
     </label>
-    <input name="radio-buttens" value="2" type="radio" class="userRatings">></li>
-<liclass="radio">
+    <input name="radio-buttens" value="2" type="radio" class="userRatings"></li>
+<li class="radio">
     <label>
         "Not sure"
     </label>
-    <input name="radio-buttens" value="3" type="radio" class="userRatings">></li>
+    <input name="radio-buttens" value="3" type="radio" class="userRatings"></li>
 </div>
+
+
+
+
 <div class="labels">
     <label for="most-like">Smör</label>
 </div>
@@ -90,8 +104,46 @@
         <option value="openSource">Open Source</option>
     </select>
 </div>
-<select ></select>
+<div class="RowTab">
+    <div class="labels"></div>
+    <label for="preferenses">"nating ska sta gär"<br>"(ska sta na gär å)"
+    </label>
 </div>
+<div class="rightTab"> <ul id="preferenses" style="list-style: none;">
+<li class="checkbox"><label><input name="Prefer" value="1" type="checkbox" class="userRating">muummin</label></li>
+<li class="checkbox"><label><input name="Prefer" value="2" type="checkbox" class="userRating">muummin</label></li>
+<li class="checkbox"><label><input name="Prefer" value="3" type="checkbox" class="userRating">muummin</label></li>
+<li class="checkbox"><label><input name="Prefer" value="4" type="checkbox" class="userRating">muummin</label></li>
+<li class="checkbox"><label><input name="Prefer" value="5" type="checkbox" class="userRating">muummin</label></li>
+<li class="checkbox"><label><input name="Prefer" value="6" type="checkbox" class="userRating">muummin</label></li>
+<li class="checkbox"><label><input name="Prefer" value="7" type="checkbox" class="userRating">muummin</label></li>
+<li class="checkbox"><label><input name="Prefer" value="8" type="checkbox" class="userRating">muummin</label></li>
+<li class="checkbox"><label><input name="Prefer" value="9" type="checkbox" class="userRating">muummin</label></li>
+<li class="checkbox"><label><input name="Prefer" value="10" type="checkbox" class="userRating">muummin</label></li>
+<li class="checkbox"><label><input name="Prefer" value="11" type="checkbox" class="userRating">muummin</label></li>
+
+</ul>
+</div>
+<div class="RowTab">
+    <div class="labels">
+        <label for="comment">mummin kan skriv gär om de</label>
+    </div>
+</div>
+<div class="rightTab">
+    <textarea name="comment" id="comments" cols="30" rows="10"  class="input-field"
+     style="height :58px; resize :vertical;" margin-top: 10px; margin-bottom: 10px; placeholder=" va tögot">
+    </textarea>
+    
+</div>
+<button id="submit" type="submit">Submit</button>
+</div>
+
+
+
+
+
+
+
 
 
 </form>
@@ -101,12 +153,6 @@
 
 
 
-
-
-
-
-
-
-
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </html>
