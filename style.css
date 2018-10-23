@@ -140,7 +140,7 @@ textarea {
     overflow-wrap: break-word;
 }
 
-number{
+.number{
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
