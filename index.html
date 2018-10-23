@@ -13,63 +13,72 @@
 
 <body>
 
-    <h1 id="title">fyll i</h1>
+    <h1 id="title">Job Application</h1>
 
     <div id="form-outer">
-        <p id="description">Arbets ansökan</p>
+        <p id="description">Job application to Prisma</p>
         <form id="survey-form" method="GET" action="">
-            <div class="rowTab"></div>
-            <div class="labels"></div>
-            <label id="name-label" for="name">name</label>
-
+            
+            <div class="rowTab"><div class="labels"><label id="name-label" for="name">*Name:</label></div>
+        
             <div class="rightTab">
-                <input autofocus type="text" name="name" id="name" class="input-field" required placeholder="Enter your name"
-                    >
+                <input autofocus type="text" name="name" id="name" class="input-field" required placeholder="Enter your name">
             </div>
 
 
+        </div>
+            
+            
+
+            
 
 
-            <div class="rowTab"></div>
-            <div class="labels"></div>
-            <label id="email-label" for="email">Email</label>
 
+            <div class="rowTab"><div class="labels"><label id="email-label" for="email">*Email:</label></div>
+        
             <div class="rightTab">
                 <input type="email" email="email" id="email" class="input-field" placeholder="Enter your email" required>
                     
             </div>
 
+        </div>
+            
+            
 
-
-
-            <div class="rowTab"></div>
-            <div class="labels"></div>
-            <label id="number-label" for="age">age</label>
-
-            <div class="number">
-                <input type="number" name="age" id="number" min="1" max="123" class="input-field"  placeholder="age" required
-                    >
-            </div>
+            
 
 
 
 
-            <div class="rowTab"></div>
-            <div class="labels"></div>
-            <label id="name-label" for="currentPose">are you a?</label>
+            <div class="rowTab"> <div class="labels"><label id="number-label" for="age">*Age:</label></div>
+            <div class="rightTab"><div class="number">
+                <input type="number" name="age" id="number" min="1" max="123" class="input-field"  placeholder="age" required>
+            </div></div>
+        
+        </div>
+            
+            
 
+            
+
+
+
+
+            <div class="rowTab"><div class="labels"><label id="name-label" for="currentPose">*Are you a?</label></div>
+        
             <div class="rightTab">
                 <select id="dropdown" name="currentPose" class="dropdown">
                     <option value="openSource">Open Source</option>
                     <option value="student">Student</option>
-                    <option value="job">Full Time Job</option>
                     <option value="learner">Full Time Learner</option>
                     <option value="preferNo">Prefer not to say</option>
                     <option value="other">Other</option>
                 </select>
             </div>
-
-
+        
+        </div>
+            
+            
 
             <div class="rowTab">
                 <div class="labels"></div>
@@ -115,6 +124,7 @@
                 <label for="preferenses"">"nating ska sta gär"<br>"(ska sta na gär å)"
                 </label>
             </div>
+            
             <div class="rightTab">
                 <ul id="preferenses" style="list-style: none;">
                     <li class="checkbox"><label><input name="Prefer" value="1" type="checkbox" class="userRating">muummin</label></li>
