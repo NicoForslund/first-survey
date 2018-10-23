@@ -80,48 +80,55 @@
             
             
 
-            <div class="rowTab">
-                <div class="labels"></div>
-                <label for="userRating"></label>
-                <div class="rightTab"></div>
-                <div class="rightTab"></div>
-                <ul style="list-style:none;"></ul>
-                <li class="radio">
-                    <label>
-                        Definitely
-                    </label>
-                    <input name="radio-buttens" value="1" type="radio" class="userRatings">
-                </li>
-                <li class="radio">
-                    <label>
-                         Maybe Yes
-                    </label>
-                    <input name="radio-buttens" value="2" type="radio" class="userRatings"></li>
-                <li class="radio">
-                    <label>
-                        Maybe NOT!
-                    </label>
-                    <input name="radio-buttens" value="3" type="radio" class="userRatings"></li>
-            </div>
+        <div class="rowTab">
+            <div class="labels"></div>
+            <label for="userRating"></label>
+            <div class="rightTab"></div>
+            <div class="rightTab"></div>
+            <ul style="list-style:none;">have you had a work/job Before</ul>
+            <li class="radio">
+                <label>
+                    Yes i have
+                </label>
+                <input name="radio-buttens" value="1" type="radio" class="userRatings">
+            </li>
+            <li class="radio">
+                <label>
+                    No i haven't
+                </label>
+                <input name="radio-buttens" value="2" type="radio" class="userRatings"></li>
+            <li class="radio">
+                <label>
+                    Prefer not to say
+                </label>
+                <input name="radio-buttens" value="3" type="radio" class="userRatings"></li>
+        </div>
 
-
+            <br>
             
 
             <div class="labels">
-                <label for="most-like">mumin</label>
+                <label for="most-like">when do you want to work?</label>
             </div>
+            
+        
+
             <div class="rightTab">
                 <select id="most-like" name="mostlike" class="dropdown">
                     <option disabled="" selected="" value="">Select an option</option>
-                    <option value="challenges">Challenges</option>
-                    <option value="projects">Projects</option>
-                    <option value="projects">Projects</option>
-                    <option value="openSource">Open Source</option>
+                    <option value="challenges">Weekend</option>
+                    <option value="projects">Monday-friday</option>
+                    <option value="projects">holidays</option>
+                    <option value="openSource">Doesn't matter</option>
                 </select>
             </div>
+
+            
+
             <div class="rowTab">
                 <div class="labels"></div>
-                <label for="preferenses"">"nating ska sta gär"<br>"(ska sta na gär å)"
+                <br>
+                <label for="preferenses">"nating ska sta gär"<br>"(ska sta na gär å)"
                 </label>
             </div>
             
@@ -145,11 +152,17 @@
                 <div class="labels">
                     <label for="comment">mummin kan skriv gär om de</label>
                 </div>
+
+
             </div>
             <div class="rightTab">
                 <textarea name="comment" id="comments" cols="30" rows="10" class="input-field" style="height :58px; resize :vertical;"
                     margin-top: 10px; margin-bottom: 10px; placeholder="va tögot">
-    </textarea>
+
+                </textarea>
+
+                
+
 
             </div>
             <button id="submit" type="submit">Submit</button>
