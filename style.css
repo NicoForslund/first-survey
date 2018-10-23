@@ -97,6 +97,8 @@ ul{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
+    
+    
 }
 
 .checkbox {
@@ -105,14 +107,18 @@ ul{
     margin-left: 10px;
     display: block;
     padding-bottom: 10px;
+    
 }
 
 li {
     display:list-item;
     text-align: -webkit-match-parent;
+    
+    
 }
 
 #submit {
+    align-content: center;
     background-color: #59ace0;
     border-radius: 4px;
     color: white;
@@ -122,6 +128,7 @@ li {
     margin: 10px;
     border: 0px solid;
 }
+    
 
 #result {
     border: 0;
@@ -148,3 +155,4 @@ textarea {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
